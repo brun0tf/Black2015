@@ -1,0 +1,8 @@
+.subckt AOI21 inA	inB	inC	out	VDD	GND
+MP1	out	inB	pu_n1	VDD	pmos	L = 90n  W = 'widthPmos*2'
+MP2	pu_n1	inC	out	VDD	pmos	L = 90n  W = 'widthPmos*2'
+MP3	pu_n1	inA	VDD	VDD	pmos	L = 90n  W = 'widthPmos*2'
+MN4	GND	inA	out	GND	nmos	L = 90n  W = 200n
+MN5	GND	inC	pd_n1	GND	nmos	L = 90n  W = 2*200n
+MN6	pd_n1	inB	out	GND	nmos	L = 90n  W = 2*200n
+.ends AOI21
