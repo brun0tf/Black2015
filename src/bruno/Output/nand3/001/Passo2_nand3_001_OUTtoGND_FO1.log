@@ -1,0 +1,632 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\Bruno\Output\Passo2_nand3_001_OUTtoGND_FO1.sp"
+	Including "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\Bruno\Output\ptm_90nm.l"
+
+Start of Passo2_nand3_001_OUTtoGND_FO1.sp
+Loaded BSIM4v450 model library, Berkeley BSIM4 v4.5.0
+
+	Opening simulation database "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\Bruno\Output\Passo2_nand3_001_OUTtoGND_FO1.tsim"
+Warning : "Passo2_nand3_001_OUTtoGND_FO1.sp" line 10 Power supply node VDD2 is singularly attached to V2, and will be terminated with a Gmin conductance
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -       8
+    MOSFET geometries -       3
+      Voltage sources -       4
+      Current sources -       2
+          Subcircuits -       2
+    Model Definitions -       3
+      Computed Models -       2
+    Independent nodes -      36
+       Boundary nodes -       5
+          Total nodes -      41
+*** 1 WARNING MESSAGE GENERATED DURING SETUP
+
+
+Optimization model parameters:
+  Level   = 1
+  verbose = 1
+  cendif  = 1e-009
+  close   = 0.001
+  cut     = 2
+  difsiz  = 0.001
+  grad    = 1e-006
+  itropt  = 40
+  max     = 600000
+  parmin  = 0.1
+  relin   = 0.001
+  relout  = 0.001
+
+Warning : Warning messages were issued, but were suppressed
+        : during a sweep, optimization, or Monte Carlos analysis.
+        : 	Use '.options maxmsg=0' to view all warnings.
+
+
+Optimization parameters:
+       iHold = 2e-005            derivative = -6.40136e+024  
+
+Optimization initialization: resid=1.1738e+012 grad=6.40136e+024 Marquardt=0.001
+
+Optimization parameters:
+       iHold = 0.000896307       derivative = 3.2017e+023    
+
+
+Measure information will be written to file "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\Bruno\Output\Passo2_nand3_001_OUTtoGND_FO1\Passo2_nand3_001_OUTtoGND_FO1.measure"
+
+Measurement result summary: OPTIMIZE=opt2_1
+   setTracker      = -621.9152m      
+   vPeakMin        = -621.9152m      
+   vPeakMax        = -621.8469m      
+   avgPrompt       =  -15.9456u      
+   cargaPrompt     =   -6.3782f      
+   avgHold         =  228.6368u      
+   cargaHold       =   91.4547f      
+
+Optimization iteration 1
+                   Residual = 6.21768e+011
+              Gradient norm = 3.2017e+023
+        Marquardt parameter = 0.0005
+       Function evaluations = 4
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_2
+   setTracker      =   -3.4310m      
+   vPeakMin        =    1.1500       
+   vPeakMax        =    1.1738       
+   avgPrompt       =   21.1820u      
+   cargaPrompt     =    8.4728f      
+   avgHold         =    5.0967u      
+   cargaHold       =    2.0387f      
+
+Optimization iteration 2
+                   Residual = 6.21768e+011
+              Gradient norm = 3.2017e+023
+        Marquardt parameter = 0.002
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_3
+   setTracker      =   -3.4310m      
+   vPeakMin        =    1.1500       
+   vPeakMax        =    1.1738       
+   avgPrompt       =   21.1820u      
+   cargaPrompt     =    8.4728f      
+   avgHold         =    5.0967u      
+   cargaHold       =    2.0387f      
+
+Optimization iteration 3
+                   Residual = 6.21768e+011
+              Gradient norm = 3.2017e+023
+        Marquardt parameter = 0.008
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_4
+   setTracker      =   -3.4310m      
+   vPeakMin        =    1.1500       
+   vPeakMax        =    1.1738       
+   avgPrompt       =   21.1820u      
+   cargaPrompt     =    8.4728f      
+   avgHold         =    5.0967u      
+   cargaHold       =    2.0387f      
+
+Optimization iteration 4
+                   Residual = 6.21768e+011
+              Gradient norm = 3.2017e+023
+        Marquardt parameter = 0.032
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_5
+   setTracker      =   -3.4310m      
+   vPeakMin        =    1.1500       
+   vPeakMax        =    1.1738       
+   avgPrompt       =   21.1820u      
+   cargaPrompt     =    8.4728f      
+   avgHold         =    5.0967u      
+   cargaHold       =    2.0387f      
+
+Optimization iteration 5
+                   Residual = 6.21768e+011
+              Gradient norm = 3.2017e+023
+        Marquardt parameter = 0.128
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_6
+   setTracker      =   -3.4310m      
+   vPeakMin        =    1.1500       
+   vPeakMax        =    1.1738       
+   avgPrompt       =   21.1820u      
+   cargaPrompt     =    8.4728f      
+   avgHold         =    5.0967u      
+   cargaHold       =    2.0387f      
+
+Optimization iteration 6
+                   Residual = 6.21768e+011
+              Gradient norm = 3.2017e+023
+        Marquardt parameter = 0.512
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_7
+   setTracker      =   -3.4310m      
+   vPeakMin        =    1.1500       
+   vPeakMax        =    1.1738       
+   avgPrompt       =   21.1820u      
+   cargaPrompt     =    8.4728f      
+   avgHold         =    5.0967u      
+   cargaHold       =    2.0387f      
+
+Optimization iteration 7
+                   Residual = 6.21768e+011
+              Gradient norm = 3.2017e+023
+        Marquardt parameter = 2.048
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_8
+   setTracker      =  -29.7536m      
+   vPeakMin        =  908.0688m      
+   vPeakMax        =  991.6719m      
+   avgPrompt       =   16.1787u      
+   cargaPrompt     =    6.4715f      
+   avgHold         =   35.2154u      
+   cargaHold       =   14.0862f      
+
+Optimization iteration 8
+                   Residual = 6.21768e+011
+              Gradient norm = 3.2017e+023
+        Marquardt parameter = 8.192
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+       iHold = 0.000812949       derivative = 3.95741e+023   
+
+
+Measurement result summary: OPTIMIZE=opt2_9
+   setTracker      = -613.5896m      
+   vPeakMin        = -613.5896m      
+   vPeakMax        = -613.5161m      
+   avgPrompt       =  -12.4177u      
+   cargaPrompt     =   -4.9671f      
+   avgHold         =  207.3732u      
+   cargaHold       =   82.9493f      
+
+Optimization iteration 9
+                   Residual = 6.13424e+011
+              Gradient norm = 3.95741e+023
+        Marquardt parameter = 4.096
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+       iHold = 0.000605481       derivative = 1.19572e+024   
+
+
+Measurement result summary: OPTIMIZE=opt2_10
+   setTracker      = -571.8696m      
+   vPeakMin        = -571.8696m      
+   vPeakMax        = -571.6945m      
+   avgPrompt       =   -3.6286u      
+   cargaPrompt     =   -1.4514f      
+   avgHold         =  154.4506u      
+   cargaHold       =   61.7803f      
+
+Optimization iteration 10
+                   Residual = 5.71453e+011
+              Gradient norm = 1.19572e+024
+        Marquardt parameter = 2.048
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+       iHold = 0.000451086       derivative = 3.48297e+024   
+
+
+Measurement result summary: OPTIMIZE=opt2_11
+   setTracker      = -421.1240m      
+   vPeakMin        = -421.1240m      
+   vPeakMax        = -377.0517m      
+   avgPrompt       =    2.9139u      
+   cargaPrompt     =    1.1656f      
+   avgHold         =  115.0664u      
+   cargaHold       =   46.0266f      
+
+Optimization iteration 11
+                   Residual = 3.76208e+011
+              Gradient norm = 3.48297e+024
+        Marquardt parameter = 1.024
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+       iHold = 0.000402008       derivative = 3.81404e+024   
+
+
+Measurement result summary: OPTIMIZE=opt2_12
+   setTracker      = -296.8307m      
+   vPeakMin        = -296.8307m      
+   vPeakMax        = -270.4275m      
+   avgPrompt       =    4.9936u      
+   cargaPrompt     =    1.9974f      
+   avgHold         =  102.5471u      
+   cargaHold       =   41.0189f      
+
+Optimization iteration 12
+                   Residual = 2.69254e+011
+              Gradient norm = 3.81404e+024
+        Marquardt parameter = 0.512
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+       iHold = 0.000361644       derivative = -1.82414e+023  
+
+
+Measurement result summary: OPTIMIZE=opt2_13
+   setTracker      = -150.4830m      
+   vPeakMin        =  -84.7373m      
+   vPeakMax        =    2.2427m      
+   avgPrompt       =    6.7040u      
+   cargaPrompt     =    2.6816f      
+   avgHold         =   92.2509u      
+   cargaHold       =   36.9004f      
+
+Optimization iteration 13
+                   Residual = 5.72089e+009
+              Gradient norm = 1.82414e+023
+        Marquardt parameter = 0.256
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+       iHold = 0.000362021       derivative = -1.61764e+022  
+
+
+Measurement result summary: OPTIMIZE=opt2_14
+   setTracker      = -151.1685m      
+   vPeakMin        =  -86.9350m      
+   vPeakMax        =   -1.3885m      
+   avgPrompt       =    6.6880u      
+   cargaPrompt     =    2.6752f      
+   avgHold         =   92.3471u      
+   cargaHold       =   36.9388f      
+
+Optimization iteration 14
+                   Residual = 2.0944e+009
+              Gradient norm = 1.61764e+022
+        Marquardt parameter = 0.128
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_15
+   setTracker      = -152.0439m      
+   vPeakMin        =  -89.7392m      
+   vPeakMax        =   -6.0289m      
+   avgPrompt       =    6.6676u      
+   cargaPrompt     =    2.6670f      
+   avgHold         =   92.4700u      
+   cargaHold       =   36.9880f      
+
+Optimization iteration 15
+                   Residual = 2.0944e+009
+              Gradient norm = 1.61764e+022
+        Marquardt parameter = 0.512
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_16
+   setTracker      = -151.3643m      
+   vPeakMin        =  -87.5625m      
+   vPeakMax        =   -2.4261m      
+   avgPrompt       =    6.6834u      
+   cargaPrompt     =    2.6734f      
+   avgHold         =   92.3746u      
+   cargaHold       =   36.9498f      
+
+Optimization iteration 16
+                   Residual = 2.0944e+009
+              Gradient norm = 1.61764e+022
+        Marquardt parameter = 2.048
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Optimization parameters:
+       iHold = 0.000362137       derivative = 3.48396e+022   
+
+
+Measurement result summary: OPTIMIZE=opt2_17
+   setTracker      = -151.3787m      
+   vPeakMin        =  -87.6084m      
+   vPeakMax        =   -2.5022m      
+   avgPrompt       =    6.6831u      
+   cargaPrompt     =    2.6732f      
+   avgHold         =   92.3766u      
+   cargaHold       =   36.9506f      
+
+Optimization iteration 17
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 1.024
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_18
+   setTracker      = -150.6173m      
+   vPeakMin        =  -85.1679m      
+   vPeakMax        =    1.5316m      
+   avgPrompt       =    6.7009u      
+   cargaPrompt     =    2.6803f      
+   avgHold         =   92.2698u      
+   cargaHold       =   36.9079f      
+
+Optimization iteration 18
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 4.096
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_19
+   setTracker      = -150.7047m      
+   vPeakMin        =  -85.4480m      
+   vPeakMax        =    1.0688m      
+   avgPrompt       =    6.6988u      
+   cargaPrompt     =    2.6795f      
+   avgHold         =   92.2820u      
+   cargaHold       =   36.9128f      
+
+Optimization iteration 19
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 16.384
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_20
+   setTracker      = -150.7196m      
+   vPeakMin        =  -85.4960m      
+   vPeakMax        =  989.5930u      
+   avgPrompt       =    6.6985u      
+   cargaPrompt     =    2.6794f      
+   avgHold         =   92.2841u      
+   cargaHold       =   36.9136f      
+
+Optimization iteration 20
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 65.536
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_21
+   setTracker      = -150.7209m      
+   vPeakMin        =  -85.5002m      
+   vPeakMax        =  982.6528u      
+   avgPrompt       =    6.6984u      
+   cargaPrompt     =    2.6794f      
+   avgHold         =   92.2843u      
+   cargaHold       =   36.9137f      
+
+Optimization iteration 21
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 262.144
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_22
+   setTracker      = -150.7210m      
+   vPeakMin        =  -85.5005m      
+   vPeakMax        =  982.1768u      
+   avgPrompt       =    6.6984u      
+   cargaPrompt     =    2.6794f      
+   avgHold         =   92.2843u      
+   cargaHold       =   36.9137f      
+
+Optimization iteration 22
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 1048.58
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_23
+   setTracker      = -150.7210m      
+   vPeakMin        =  -85.5005m      
+   vPeakMax        =  982.1464u      
+   avgPrompt       =    6.6984u      
+   cargaPrompt     =    2.6794f      
+   avgHold         =   92.2843u      
+   cargaHold       =   36.9137f      
+
+Optimization iteration 23
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 4194.3
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_24
+   setTracker      = -150.7210m      
+   vPeakMin        =  -85.5005m      
+   vPeakMax        =  982.1444u      
+   avgPrompt       =    6.6984u      
+   cargaPrompt     =    2.6794f      
+   avgHold         =   92.2843u      
+   cargaHold       =   36.9137f      
+
+Optimization iteration 24
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 16777.2
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_25
+   setTracker      = -150.7210m      
+   vPeakMin        =  -85.5005m      
+   vPeakMax        =  982.1443u      
+   avgPrompt       =    6.6984u      
+   cargaPrompt     =    2.6794f      
+   avgHold         =   92.2843u      
+   cargaHold       =   36.9137f      
+
+Optimization iteration 25
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 67108.9
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_26
+   setTracker      = -150.7210m      
+   vPeakMin        =  -85.5005m      
+   vPeakMax        =  982.1443u      
+   avgPrompt       =    6.6984u      
+   cargaPrompt     =    2.6794f      
+   avgHold         =   92.2843u      
+   cargaHold       =   36.9137f      
+
+Optimization iteration 26
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 268435
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_27
+   setTracker      = -150.7210m      
+   vPeakMin        =  -85.5005m      
+   vPeakMax        =  982.1443u      
+   avgPrompt       =    6.6984u      
+   cargaPrompt     =    2.6794f      
+   avgHold         =   92.2843u      
+   cargaHold       =   36.9137f      
+
+Optimization iteration 27
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 1.07374e+006
+       Function evaluations = 1
+                  Converged = yes
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Optimization results:
+                   Residual = 9.82144e+008
+              Gradient norm = 3.48396e+022
+        Marquardt parameter = 1.07374e+006
+       Function evaluations = 37
+       Number of iterations = 27
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Optimized parameter values:
+   iHold =  3.6214e-004
+
+Measurement result summary: OPTIMIZE=opt2_27
+   setTracker      = -150.7210m      
+   vPeakMin        =  -85.5005m      
+   vPeakMax        =  982.1443u      
+   avgPrompt       =    6.6984u      
+   cargaPrompt     =    2.6794f      
+   avgHold         =   92.2843u      
+   cargaHold       =   36.9137f      
+
+Parsing                      0.01 seconds
+.TRAN Sweep                  5.54 seconds
+Overhead                     0.88 seconds
+-----------------------------------------
+Total                        6.42 seconds
+
+Simulation completed	with  2 Warnings

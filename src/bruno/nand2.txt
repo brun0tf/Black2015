@@ -1,0 +1,8 @@
+.SUBCKT nand2 a b out VDD GND
+*.PININFO a:I b:I out:O VDD:P GND:G
+*.EQN out=(!a + !b);
+MP1 out a VDD VDD pmos		 L = 90n  W = 'widthPmos'
+MP2 out b VDD VDD pmos		 L = 90n  W = 'widthPmos'
+MN3 pd_n1 a GND GND nmos	 L = 90n  W = 2*200n
+MN4 out b pd_n1 GND nmos	 L = 90n  W = 2*200n
+.ENDS nand2

@@ -1,0 +1,54 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "D:\pesquisa\Projeto SEE\Algoritmos\Black2015\src\bruno\Output\teste\T-Spice1.sp"
+	Including "D:\pesquisa\Projeto SEE\Algoritmos\Black2015\src\bruno\Output\teste\ptm_90nm.l"
+
+Start of T-Spice1.sp
+Loaded BSIM4v450 model library, Berkeley BSIM4 v4.5.0
+
+	Opening simulation database "D:\pesquisa\Projeto SEE\Algoritmos\Black2015\src\bruno\Output\teste\T-Spice1.tsim"
+Warning : Invalid plot request - Device "iSh" does not exist.
+Warning : "T-Spice1.sp" line 12 Power supply node VDD2 is singularly attached to V2, and will be terminated with a Gmin conductance
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -      14
+    MOSFET geometries -       4
+      Voltage sources -       6
+      Current sources -       2
+                 CCCS -       1
+          Subcircuits -       5
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -      64
+       Boundary nodes -       5
+          Total nodes -      69
+*** 2 WARNING MESSAGES GENERATED DURING SETUP
+
+
+Measure information will be written to file "D:\pesquisa\Projeto SEE\Algoritmos\Black2015\src\bruno\Output\teste\T-Spice1\T-Spice1.measure"
+
+Measurement result summary
+   setTracker      =    1.3260       
+   vPeakMin        =    1.2001       
+   vPeakMax        =    1.2003       
+   avgPrompt       =   21.5598u      
+   cargaPrompt     =    8.6239f      
+   avgHold         =   52.3113u      
+   cargaHold       =   20.9245f      
+
+Parsing                      0.01 seconds
+Setup                        0.01 seconds
+DC operating point           0.01 seconds
+Transient Analysis           0.77 seconds
+Overhead                     0.61 seconds
+-----------------------------------------
+Total                        1.41 seconds
+
+Simulation completed	with  2 Warnings

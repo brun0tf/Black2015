@@ -1,0 +1,52 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\testeFonteControlada.sp"
+	Including "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\ptm_90nm.l"
+
+Start of testeFonteControlada.sp
+Loaded BSIM4v450 model library, Berkeley BSIM4 v4.5.0
+
+	Opening simulation database "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\testeFonteControlada.tsim"
+Warning : Invalid plot request - Device "iSh" does not exist.
+Warning : Invalid plot request - Device "g1" does not exist.
+Warning : Invalid plot request - Device "g2" does not exist.
+Warning : "testeFonteControlada.sp" line 10 Power supply node VDD2 is singularly attached to V2, and will be terminated with a Gmin conductance
+Warning : "testeFonteControlada.sp" line 12 Power supply node high is singularly attached to vinA, and will be terminated with a Gmin conductance
+Warning : "testeFonteControlada.sp" line 13 Power supply node low is singularly attached to vinB, and will be terminated with a Gmin conductance
+Warning : "testeFonteControlada.sp" line 15 Power supply node teste is singularly attached to vinC, and will be terminated with a Gmin conductance
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -      14
+    MOSFET geometries -       4
+      Voltage sources -       5
+          Subcircuits -       5
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -      60
+       Boundary nodes -       6
+          Total nodes -      66
+*** 7 WARNING MESSAGES GENERATED DURING SETUP
+
+
+Measure information will be written to file "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\testeFonteControlada\testeFonteControlada.measure"
+
+Measurement result summary
+   vPeakMin        =    4.9366u      
+   vPeakMax        =    4.9366u      
+
+Parsing                      0.00 seconds
+Setup                        0.01 seconds
+DC operating point           0.01 seconds
+Transient Analysis           0.48 seconds
+Overhead                     0.39 seconds
+-----------------------------------------
+Total                        0.89 seconds
+
+Simulation completed	with  7 Warnings

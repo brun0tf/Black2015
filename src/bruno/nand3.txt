@@ -1,0 +1,8 @@
+.SUBCKT nand3 A B C out VDD GND
+MP1 out   A VDD   VDD   pmos	L = 90n  W = 'widthPmos'
+MP2 out   B VDD   VDD   pmos	L = 90n  W = 'widthPmos'
+MP3 out   C VDD   VDD 	pmos	L = 90n  W = 'widthPmos'
+MN4 out   A pd_n1 GND 	nmos	L = 90n  W = 3*200n
+MN5 pd_n1 B pd_n3 GND   nmos    L = 90n  W = 3*200n
+MN6 pd_n3 C GND   GND 	nmos	L = 90n  W = 3*200n
+.ENDS nand3

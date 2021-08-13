@@ -1,0 +1,54 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "D:\pesquisa\Projeto SEE\Algoritmos\Black2015\src\bruno\Output\teste\passo2_nand3_000_FO4.sp"
+	Including "D:\pesquisa\Projeto SEE\Algoritmos\Black2015\src\bruno\Output\teste\ptm_90nm.l"
+
+Start of passo2_nand3_000_FO4.sp
+Loaded BSIM4v450 model library, Berkeley BSIM4 v4.5.0
+
+	Opening simulation database "D:\pesquisa\Projeto SEE\Algoritmos\Black2015\src\bruno\Output\teste\passo2_nand3_000_FO4.tsim"
+Warning : "passo2_nand3_000_FO4.sp" line 10 Power supply node VDD2 is singularly attached to V2, and will be terminated with a Gmin conductance
+Warning : "passo2_nand3_000_FO4.sp" line 12 Power supply node high is singularly attached to vinA, and will be terminated with a Gmin conductance
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -      14
+    MOSFET geometries -       3
+      Voltage sources -       6
+      Current sources -       2
+                 CCCS -       1
+          Subcircuits -       5
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -      64
+       Boundary nodes -       5
+          Total nodes -      69
+*** 2 WARNING MESSAGES GENERATED DURING SETUP
+
+
+Measure information will be written to file "D:\pesquisa\Projeto SEE\Algoritmos\Black2015\src\bruno\Output\teste\passo2_nand3_000_FO4\passo2_nand3_000_FO4.measure"
+
+Measurement result summary
+   setTracker      =  -46.9832m      
+   vPeakMin        =  -19.9042m      
+   vPeakMax        =  -19.8815m      
+   avgPrompt       =   33.6733u      
+   cargaPrompt     =   13.4693f      
+   avgHold         =  219.5827m      
+   cargaHold       =   87.8331p      
+
+Parsing                      0.01 seconds
+Setup                        0.01 seconds
+DC operating point           0.00 seconds
+Transient Analysis           0.61 seconds
+Overhead                     0.44 seconds
+-----------------------------------------
+Total                        1.06 seconds
+
+Simulation completed	with  2 Warnings

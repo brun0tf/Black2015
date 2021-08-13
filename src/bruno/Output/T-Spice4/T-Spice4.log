@@ -1,0 +1,37 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\T-Spice4.sp"
+	Including "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\ptm_90nm.l"
+
+Start of T-Spice4.sp
+Loaded BSIM4v450 model library, Berkeley BSIM4 v4.5.0
+
+	Opening simulation database "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\T-Spice4.tsim"
+
+General options:
+        threads = 1
+
+ Device and node counts:
+            Resistors -       3
+      Voltage sources -       2
+                 CCCS -       1
+          Subcircuits -       0
+    Model Definitions -       2
+      Computed Models -       0
+    Independent nodes -       5
+       Boundary nodes -       1
+          Total nodes -       6
+
+Parsing                      0.00 seconds
+Setup                        0.01 seconds
+DC operating point           0.00 seconds
+Transient Analysis           0.35 seconds
+Overhead                     0.39 seconds
+-----------------------------------------
+Total                        0.75 seconds
+
+Simulation completed

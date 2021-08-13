@@ -1,0 +1,231 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\Bruno\Output\Passo1_nand3_001_OUTtoGND_FO8.sp"
+	Including "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\Bruno\Output\ptm_90nm.l"
+
+Start of Passo1_nand3_001_OUTtoGND_FO8.sp
+Loaded BSIM4v450 model library, Berkeley BSIM4 v4.5.0
+
+	Opening simulation database "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\Bruno\Output\Passo1_nand3_001_OUTtoGND_FO8.tsim"
+Warning : "Passo1_nand3_001_OUTtoGND_FO8.sp" line 8 Power supply node VDD2 is singularly attached to V2, and will be terminated with a Gmin conductance
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -      22
+    MOSFET geometries -       3
+      Voltage sources -       4
+      Current sources -       1
+          Subcircuits -       9
+    Model Definitions -       3
+      Computed Models -       2
+    Independent nodes -      92
+       Boundary nodes -       5
+          Total nodes -      97
+*** 1 WARNING MESSAGE GENERATED DURING SETUP
+
+
+Optimization model parameters:
+  Level   = 1
+  verbose = 1
+  cendif  = 1e-009
+  close   = 0.001
+  cut     = 2
+  difsiz  = 0.001
+  grad    = 1e-006
+  itropt  = 40
+  max     = 600000
+  parmin  = 0.1
+  relin   = 0.001
+  relout  = 0.001
+
+Warning : Warning messages were issued, but were suppressed
+        : during a sweep, optimization, or Monte Carlos analysis.
+        : 	Use '.options maxmsg=0' to view all warnings.
+
+
+Optimization parameters:
+      iTotal = 2e-005            derivative = -4.64918e+024  
+
+Optimization initialization: resid=1.18083e+012 grad=4.64918e+024 Marquardt=0.001
+
+Optimization parameters:
+      iTotal = 0.00124111        derivative = 2.44217e+024   
+
+
+Measure information will be written to file "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\Bruno\Output\Passo1_nand3_001_OUTtoGND_FO8\Passo1_nand3_001_OUTtoGND_FO8.measure"
+
+Measurement result summary: OPTIMIZE=opt2_1
+   Vpeak           = -242.0038m      
+   avgiS           =   52.5922u      
+   cargaTotal      =   21.0369f      
+
+Optimization iteration 1
+                   Residual = 2.40076e+011
+              Gradient norm = 2.44217e+024
+        Marquardt parameter = 0.0005
+       Function evaluations = 4
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+      iTotal = 0.00108672        derivative = -6.08647e+022  
+
+
+Measurement result summary: OPTIMIZE=opt2_2
+   Vpeak           =    5.3671m      
+   avgiS           =   46.0498u      
+   cargaTotal      =   18.4199f      
+
+Optimization iteration 2
+                   Residual = 7.07782e+009
+              Gradient norm = 6.08647e+022
+        Marquardt parameter = 0.00025
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+      iTotal = 0.00109121        derivative = 8.46481e+021   
+
+
+Measurement result summary: OPTIMIZE=opt2_3
+   Vpeak           =   -1.7231m      
+   avgiS           =   46.2402u      
+   cargaTotal      =   18.4961f      
+
+Optimization iteration 3
+                   Residual = 1.80543e+006
+              Gradient norm = 8.46481e+021
+        Marquardt parameter = 0.000125
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+      iTotal = 0.00109121        derivative = 8.44708e+021   
+
+
+Measurement result summary: OPTIMIZE=opt2_4
+   Vpeak           =   -1.7212m      
+   avgiS           =   46.2402u      
+   cargaTotal      =   18.4961f      
+
+Optimization iteration 4
+                   Residual = 880.731
+              Gradient norm = 8.44708e+021
+        Marquardt parameter = 6.25e-005
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Optimization parameters:
+      iTotal = 0.00109121        derivative = 8.44707e+021   
+
+
+Measurement result summary: OPTIMIZE=opt2_5
+   Vpeak           =   -1.7212m      
+   avgiS           =   46.2402u      
+   cargaTotal      =   18.4961f      
+
+Optimization iteration 5
+                   Residual = 0.318909
+              Gradient norm = 8.44707e+021
+        Marquardt parameter = 3.125e-005
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Optimization parameters:
+      iTotal = 0.00109121        derivative = 8.44707e+021   
+
+
+Measurement result summary: OPTIMIZE=opt2_6
+   Vpeak           =   -1.7212m      
+   avgiS           =   46.2402u      
+   cargaTotal      =   18.4961f      
+
+Optimization iteration 6
+                   Residual = 0.00100999
+              Gradient norm = 8.44707e+021
+        Marquardt parameter = 1.5625e-005
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Measurement result summary: OPTIMIZE=opt2_7
+   Vpeak           =    1.2958f      
+   avgiS           =   46.1940u      
+   cargaTotal      =   18.4776f      
+
+Optimization iteration 7
+                   Residual = 0.00100999
+              Gradient norm = 8.44707e+021
+        Marquardt parameter = 6.25e-005
+       Function evaluations = 1
+                  Converged = no
+         Gradient converged = no
+            Input converged = yes
+           Output converged = no
+
+Optimization parameters:
+      iTotal = 0.00109121        derivative = 8.44707e+021   
+
+
+Measurement result summary: OPTIMIZE=opt2_8
+   Vpeak           =   -1.7212m      
+   avgiS           =   46.2402u      
+   cargaTotal      =   18.4961f      
+
+Optimization iteration 8
+                   Residual = 0.000611177
+              Gradient norm = 8.44707e+021
+        Marquardt parameter = 3.125e-005
+       Function evaluations = 2
+                  Converged = yes
+         Gradient converged = no
+            Input converged = yes
+           Output converged = yes
+
+Optimization results:
+                   Residual = 0.000611177
+              Gradient norm = 8.44707e+021
+        Marquardt parameter = 3.125e-005
+       Function evaluations = 17
+       Number of iterations = 8
+         Gradient converged = no
+            Input converged = yes
+           Output converged = yes
+
+Optimized parameter values:
+   iTotal =  1.0912e-003
+
+Measurement result summary: OPTIMIZE=opt2_8
+   Vpeak           =  684.3150a      
+   avgiS           =   46.1940u      
+   cargaTotal      =   18.4776f      
+
+Parsing                      0.01 seconds
+.TRAN Sweep                  6.50 seconds
+Overhead                     0.90 seconds
+-----------------------------------------
+Total                        7.41 seconds
+
+Simulation completed	with  2 Warnings

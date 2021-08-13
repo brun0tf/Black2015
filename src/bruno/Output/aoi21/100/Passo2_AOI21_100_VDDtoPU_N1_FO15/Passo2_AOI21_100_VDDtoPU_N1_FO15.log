@@ -1,0 +1,156 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\aoi21\100\Passo2_AOI21_100_VDDtoPU_N1_FO15.sp"
+	Including "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\aoi21\100\ptm_90nm.l"
+
+Start of Passo2_AOI21_100_VDDtoPU_N1_FO15.sp
+Loaded BSIM4v450 model library, Berkeley BSIM4 v4.5.0
+
+	Opening simulation database "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\aoi21\100\Passo2_AOI21_100_VDDtoPU_N1_FO15.tsim"
+Warning : "Passo2_AOI21_100_VDDtoPU_N1_FO15.sp" line 10 Power supply node VDD2 is singularly attached to V2, and will be terminated with a Gmin conductance
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -      36
+    MOSFET geometries -       4
+      Voltage sources -       4
+      Current sources -       2
+          Subcircuits -      16
+    Model Definitions -       3
+      Computed Models -       2
+    Independent nodes -     148
+       Boundary nodes -       5
+          Total nodes -     153
+*** 1 WARNING MESSAGE GENERATED DURING SETUP
+
+
+Optimization model parameters:
+  Level   = 1
+  verbose = 1
+  cendif  = 1e-009
+  close   = 0.001
+  cut     = 2
+  difsiz  = 0.001
+  grad    = 1e-006
+  itropt  = 40
+  max     = 600000
+  parmin  = 0.1
+  relin   = 0.001
+  relout  = 0.001
+
+Warning : Warning messages were issued, but were suppressed
+        : during a sweep, optimization, or Monte Carlos analysis.
+        : 	Use '.options maxmsg=0' to view all warnings.
+
+
+Optimization parameters:
+       iHold = 2e-005            derivative = -6.00341       
+
+Optimization initialization: resid=0.579583 grad=6.00341 Marquardt=0.001
+
+Optimization parameters:
+       iHold = 0.000247739       derivative = -1.13704       
+
+
+Measure information will be written to file "D:\pesquisa\Projeto SEE\Algoritmos\Passo1\src\bruno\Output\aoi21\100\Passo2_AOI21_100_VDDtoPU_N1_FO15\Passo2_AOI21_100_VDDtoPU_N1_FO15.measure"
+
+Measurement result summary: OPTIMIZE=opt2_1
+   setTracker      =    1.2000       
+   vPeakMin        =  893.7949m      
+   vPeakMax        =  928.0504m      
+   avgPrompt       =   18.3099u      
+   cargaPrompt     =    7.3240f      
+   avgHold         =   63.1951u      
+   cargaHold       =   25.2781f      
+
+Optimization iteration 1
+                   Residual = 0.255414
+              Gradient norm = 1.13704
+        Marquardt parameter = 0.0005
+       Function evaluations = 4
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+       iHold = 0.000507572       derivative = -0.0906633     
+
+
+Measurement result summary: OPTIMIZE=opt2_2
+   setTracker      =    1.7658       
+   vPeakMin        =    1.1753       
+   vPeakMax        =    1.7658       
+   avgPrompt       =    7.2994u      
+   cargaPrompt     =    2.9198f      
+   avgHold         =  129.4754u      
+   cargaHold       =   51.7902f      
+
+Optimization iteration 2
+                   Residual = 0.021003
+              Gradient norm = 0.0906633
+        Marquardt parameter = 0.00025
+       Function evaluations = 2
+                  Converged = no
+         Gradient converged = no
+            Input converged = no
+           Output converged = no
+
+Optimization parameters:
+       iHold = 0.0005319         derivative = 0.00100339     
+
+
+Measurement result summary: OPTIMIZE=opt2_3
+   setTracker      =    1.7801       
+   vPeakMin        =    1.2005       
+   vPeakMax        =    1.7801       
+   avgPrompt       =    6.2686u      
+   cargaPrompt     =    2.5074f      
+   avgHold         =  135.6810u      
+   cargaHold       =   54.2724f      
+
+Optimization iteration 3
+                   Residual = 2.34393e-006
+              Gradient norm = 0.00100339
+        Marquardt parameter = 0.000125
+       Function evaluations = 2
+                  Converged = yes
+         Gradient converged = no
+            Input converged = no
+           Output converged = yes
+
+Optimization results:
+                   Residual = 2.34393e-006
+              Gradient norm = 0.00100339
+        Marquardt parameter = 0.000125
+       Function evaluations = 8
+       Number of iterations = 3
+         Gradient converged = no
+            Input converged = no
+           Output converged = yes
+
+Optimized parameter values:
+   iHold =  5.3190e-004
+
+Measurement result summary: OPTIMIZE=opt2_3
+   setTracker      =    1.7799       
+   vPeakMin        =    1.2000       
+   vPeakMax        =    1.7799       
+   avgPrompt       =    6.2911u      
+   cargaPrompt     =    2.5164f      
+   avgHold         =  135.5455u      
+   cargaHold       =   54.2182f      
+
+Parsing                      0.01 seconds
+.TRAN Sweep                  4.96 seconds
+Overhead                     0.30 seconds
+-----------------------------------------
+Total                        5.27 seconds
+
+Simulation completed	with  2 Warnings
